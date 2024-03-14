@@ -144,14 +144,13 @@ nav a:hover{
 .img-projeto{
      background-color: var(--button-color);
      width: 100%;
-     height: 20vh;
+     max-height: 20vh;
      align-self: center;
      border-radius: 10px;
 }
 .img-projeto img{
-     background-color: var(--button-color);
      width: 100%;
-     height: 20vh;
+     max-height: 20vh;
      align-self: center;
      border-radius: 10px;
 }
@@ -277,6 +276,11 @@ nav a:hover{
           align-self: center;
           border-radius: 10px;
      }
+     .img-projeto img{
+          height: 15vh;
+          align-self: center;
+          border-radius: 10px;
+     }
      .habilidades{
           margin: 10vh auto;
           width: 80vw;
@@ -315,7 +319,7 @@ nav a:hover{
           transition: top 0.5s;
      }
      nav a{
-          background-color: rgba(20,20,50,0.8);
+          background-color: rgba(0, 0, 0, 0.4);
           line-height: 13vh;
           width: auto;
           text-align: center;
@@ -323,7 +327,13 @@ nav a:hover{
           box-shadow: none; 
      }
      .active-link{
-          background-color: rgba(20,20,50,0.8);
+          background-color: rgba(0, 0, 0, 0.4);
+     }
+     .projetos h3{
+          font-size: 1rem;
+     }
+     .sobre h3{
+          font-size: 1.2rem;
      }
      .contatos{
           display: none;
