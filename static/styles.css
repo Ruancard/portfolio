@@ -148,6 +148,13 @@ nav a:hover{
      align-self: center;
      border-radius: 10px;
 }
+.img-projeto img{
+     background-color: var(--button-color);
+     width: 100%;
+     height: 20vh;
+     align-self: center;
+     border-radius: 10px;
+}
 .descricao{
      display: flex;
 }
