@@ -216,6 +216,15 @@ nav a:hover{
 .tecnologias img{
      width: 7vw;
 }
+.main-contatos{
+     display: flex;
+     flex-direction: column;
+     margin-inline: auto;
+     width: 80vw;
+     word-wrap: break-word;
+     margin-top: 20vh;
+     gap: 3vh;
+}
 @media screen and (max-width: 1024px) and (orientation: portrait) {
      .home{
           background-image: url(../img/banners/bannertablet.png);
@@ -285,6 +294,7 @@ nav a:hover{
      .tecnologias img{
           width: 15vw;
      }
+    
    }
 @media screen and (max-width: 480px) and (orientation: portrait) {
      .home{
