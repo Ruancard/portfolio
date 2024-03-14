@@ -219,7 +219,7 @@ nav a:hover{
           margin: 10vh auto;
      }
      .botoes{
-          margin-top: 53vh;
+          margin-top: 50vh;
           gap: 5vw;
      }
      .botoes a{
@@ -230,7 +230,7 @@ nav a:hover{
      }
      .textos-sobre{
           align-items: center;
-          height: 65vh;
+          height: 60vh;
           display: flex;
           flex-direction: column;
           width: 90vw;
@@ -272,6 +272,12 @@ nav a:hover{
           flex-direction: column;
           gap: 5vh;
      }
+     .sobre{
+          overflow-y: hidden;
+     }
+     .tecnologias img{
+          width: 15vw;
+     }
    }
 @media screen and (max-width: 480px) and (orientation: portrait) {
      .home{
@@ -310,6 +316,7 @@ nav a:hover{
           background-color: transparent;
           border: 0;
           color: var(--titlescolor);
+          font-size: x-large;
      }
      .projetos main{
           gap: 3rem;
