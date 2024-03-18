@@ -148,6 +148,9 @@ nav a:hover{
      gap: 5px;
      overflow: hidden;
 }
+.card h3{
+     overflow: hidden;
+}
 .img-projeto{
      background-color: var(--button-color);
      align-self: center;
