@@ -124,18 +124,25 @@ nav a:hover{
      max-height: 93vh;
      max-width: 50vw;
 }
+.projetos{
+     height: 100vh;
+     overflow-y: hidden;
+}
 .projetos main{
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     gap: 5rem;
-     margin: 5vw;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     height: 85vh;
+     padding: 5vh;
+     gap: 5vh;
+     align-items: center;
 }
 .card{
      display: flex;
      flex-direction: column;
      background-image: linear-gradient(180deg, #235492 0%, #316EAF 100%);
-     width: 23vw;
-     height: 30vh;
+     width: 19vw;
+     aspect-ratio: 10 / 12;
      padding: 1vw;
      border-radius: 10px;
      gap: 5px;
@@ -143,41 +150,38 @@ nav a:hover{
 }
 .img-projeto{
      background-color: var(--button-color);
-     width: 100%;
-     max-height: 20vh;
      align-self: center;
-     border-radius: 10px;
+     width: 100%;
+     aspect-ratio: 16 / 9;
 }
 .img-projeto img{
      width: 100%;
-     max-height: 20vh;
      align-self: center;
      border-radius: 10px;
+     aspect-ratio: 16 / 9;
 }
 .descricao{
      display: flex;
-}
-.card h3{
-     overflow: hidden;
-     text-wrap: nowrap;
+     flex-direction: column;
+     gap: 10px;
 }
 .card-tecnologias{
      display: flex;
-     overflow-y: auto;
+     overflow-x: hidden;
+     flex-wrap: nowrap;
 }
 .card-tecnologias img{
      width: 3vw;
 }
 .card-botoes{
      height: 50%;
-     align-self: center;
      display: flex;
      gap: 0.3rem;
 }
 .descricao a{
      background-color: var(--button-color);
-     line-height: 3vh;
-     padding-inline: 1vw;
+     line-height: 40px;
+     width: 50%;
      text-align: center;
      border-radius: 30px;
      box-shadow: 0px 4px rgba(0, 0, 0, 0.25); 
@@ -260,26 +264,19 @@ nav a:hover{
      .imagem-sobre{
           width: 100vw;
      }
+     .projetos{
+          height: auto;
+          overflow-y: auto;
+     }
      .projetos main{
-          grid-template-columns: repeat(2, 1fr);
-          margin: 5vw;
+          height: 120vh;
      }
      .card{
           width: 35vw;
-          height: 23vh;
-          padding: 1vw;
-          border-radius: 10px;
-          gap: 5px;
+          gap: 15px;
      }
-     .img-projeto{
-          height: 15vh;
-          align-self: center;
-          border-radius: 10px;
-     }
-     .img-projeto img{
-          height: 15vh;
-          align-self: center;
-          border-radius: 10px;
+     .descricao{
+          gap: 15px;
      }
      .habilidades{
           margin: 10vh auto;
@@ -335,6 +332,24 @@ nav a:hover{
      .sobre h3{
           font-size: 1.2rem;
      }
+     .imagem-sobre img{
+          max-height: 30vh;
+          max-width: 50vw;
+          margin-inline: auto;
+     }
+     .imagem-sobre{
+          width: 100vw;
+     }
+     .projetos{
+          height: auto;
+     }
+     .projetos main{
+          height: auto;
+          padding: 0;
+     }
+     .card{
+          width: 80vw;
+     }
      .contatos{
           display: none;
      }
@@ -349,7 +364,7 @@ nav a:hover{
           gap: 3rem;
           margin: 5vw;
      }
-     .card-tecnologias{
-          display: none;
+     .card-tecnologias img{
+          width: 15vw;
      }
 }
