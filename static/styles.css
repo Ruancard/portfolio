@@ -141,7 +141,7 @@ nav a:hover{
      display: flex;
      flex-direction: column;
      background-image: linear-gradient(180deg, #235492 0%, #316EAF 100%);
-     width: 19vw;
+     height: 35vh;
      aspect-ratio: 10 / 12;
      padding: 1vw;
      border-radius: 10px;
@@ -272,7 +272,6 @@ nav a:hover{
           height: 120vh;
      }
      .card{
-          width: 35vw;
           gap: 15px;
      }
      .descricao{
@@ -348,7 +347,7 @@ nav a:hover{
           padding: 0;
      }
      .card{
-          width: 80vw;
+          height: 50vh;;
      }
      .contatos{
           display: none;
