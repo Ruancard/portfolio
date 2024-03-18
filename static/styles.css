@@ -35,6 +35,9 @@ body{
      background-image: url(../img/banners/bannerpc.png);
      background-size: cover;
 }
+.home{
+     overflow-y: hidden;
+}
 header{
      display: flex;
      justify-content: space-between;
@@ -228,7 +231,7 @@ nav a:hover{
      margin-inline: auto;
      width: 80vw;
      word-wrap: break-word;
-     margin-top: 20vh;
+     margin-top: 10vh;
      gap: 3vh;
 }
 @media screen and (max-width: 1024px) and (orientation: portrait) {
@@ -272,10 +275,13 @@ nav a:hover{
           overflow-y: auto;
      }
      .projetos main{
-          height: 120vh;
+          height: 120vh;  
      }
      .card{
           gap: 15px;
+     }
+     .card-tecnologias img{
+          width: 20%;
      }
      .descricao{
           gap: 15px;
@@ -347,10 +353,11 @@ nav a:hover{
      }
      .projetos main{
           height: auto;
-          padding: 0;
+          padding: 0px;
+          padding-bottom: 5vh;
      }
      .card{
-          height: 45vh;;
+          height: 45vh;
      }
      .contatos{
           display: none;
@@ -362,11 +369,7 @@ nav a:hover{
           color: var(--titlescolor);
           font-size: x-large;
      }
-     .projetos main{
-          gap: 3rem;
-          margin: 5vw;
-     }
      .card-tecnologias img{
-          width: 15vw;
+          width: 20%;
      }
 }
