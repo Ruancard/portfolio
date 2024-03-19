@@ -5,6 +5,9 @@
      text-decoration: none;
      color: var(--titlescolor); 
 }
+html{
+     scrollbar-color: var(--button-color) #0a2148ff;
+}
 a{
      color: var(--titlescolor);
 }
@@ -274,7 +277,8 @@ nav a:hover{
           overflow-y: auto;
      }
      .projetos main{
-          height: 120vh;  
+          height: 120vh;
+          padding: 3vh 0;
      }
      .card{
           gap: 15px;
