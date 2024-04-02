@@ -29,7 +29,7 @@ body{
      background-position: center;
      background-repeat: no-repeat;
      background-size: auto;
-     overflow: hidden;
+     overflow-x: hidden;
      overflow-y: auto;
      width: 100vw;
      min-height: 98vh;
