@@ -29,7 +29,7 @@ body{
      background-position: center;
      background-repeat: no-repeat;
      background-size: auto;
-     overflow-x: hidden;
+     overflow: hidden;
      overflow-y: auto;
      width: 100vw;
      min-height: 98vh;
@@ -322,12 +322,11 @@ nav a:hover{
           position: absolute;
           width: 100vw;
           gap: 0;
-          top: 7vh;
-          left: 100vw;
+          top: -100vh;
           transition: top 0.5s;
      }
      .nav--active{
-          left: 0vw;
+          top: 7vh;
           transition: top 0.5s;
      }
      nav h4{
