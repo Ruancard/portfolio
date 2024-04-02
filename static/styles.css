@@ -322,11 +322,12 @@ nav a:hover{
           position: absolute;
           width: 100vw;
           gap: 0;
-          top: -100vh;
+          top: 7vh;
+          left: 100vw;
           transition: top 0.5s;
      }
      .nav--active{
-          top: 7vh;
+          left: 0vw;
           transition: top 0.5s;
      }
      nav h4{
