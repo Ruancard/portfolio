@@ -1,66 +1,64 @@
-# Meu Portfólio de Desenvolvedor
-
-Bem-vindo ao meu portfólio de desenvolvedor, onde compartilho minha paixão por criar experiências digitais únicas e envolventes. Neste documento, você encontrará informações detalhadas sobre um dos meus projetos favoritos, desde o conceito inicial no Figma até a implementação final usando HTML5, CSS3 e JavaScript.
+# README - Portfolio
 
 ## Sobre o Projeto
 
-**Nome do Projeto:** Portfolio
+Este portfolio de desenvolvedor é um projeto pessoal destinado a apresentar habilidades, projetos e experiências profissionais. O design foi cuidadosamente criado no Figma, buscando uma navegação intuitiva e uma apresentação visualmente atraente. A implementação foi realizada utilizando HTML5, CSS3 e JavaScript, tecnologias fundamentais para o desenvolvimento web.
 
-**Descrição:** Este projeto foi desenvolvido com o objetivo de mostrar minhas habilidades no front and ao mesmo tempo que consigo reunir todos os meus projetos em um unico local.
+### Recursos do Portfolio
 
-**Tecnologias Utilizadas:**
-- HTML5
-- CSS3
-- JavaScript
+- **Home:** Apresenta uma breve introdução sobre o desenvolvedor, junto com uma ilustração e links para redes sociais e GitHub.
+- **Sobre:** Detalha a trajetória profissional e o por que da escolha da area de Full-Stack.
+- **Habilidades:** Mostra as competências do desenvolvedor, incluindo as tecnologias e ferramentas que domina como HTML5, CSS3, JavaScript, React, Node.js, entre outras.
+- **Projetos:** Mostra uma galeria dos projetos desenvolvidos, com opção de filtragem por tecnologia utilizada. Cada projeto possui uma breve descrição, tecnologias envolvidas e link para o repositório GitHub.
+- **Contato:** Oferece informações de e-mail, número de telefone e outras formas de contato.
 
-**Ferramentas de Design:**
-- Figma
+## Tecnologias Utilizadas
+
+- **HTML5:** Estruturação do conteúdo do site.
+- **CSS3:** Estilização visual, incluindo layout responsivo para adaptação em diferentes tamanhos de tela.
+- **JavaScript:** Interatividade do site, incluindo a lógica para filtragem de projetos e validação do formulário de contato.
 
 ## Design no Figma
 
-O design do projeto foi cuidadosamente elaborado no Figma, com atenção aos detalhes para criar uma interface intuitiva e uma experiência do usuário agradável. Abaixo, você pode visualizar uma prévia do design.
+O design foi pensado para ser moderno, limpo e responsivo, garantindo uma boa experiência de usuário em dispositivos móveis e desktops. A paleta de cores, tipografia e layout foram definidos no Figma antes da codificação, permitindo uma visão clara do resultado final desde o início do projeto.
 
-**Design Preview:**
+### Acessando o Design
 
-[![Design no Figma]]([link_para_o_projeto_no_figma](https://www.figma.com/file/tcRY0WlHDz3kGVeydtG6SM/Portfolio?type=design&node-id=0%3A1&mode=design&t=yVOBgCi1K0XMnNHw-1))
+O design está disponível publicamente no Figma através do seguinte link:
 
-Para explorar mais sobre o design, visite o projeto no Figma: [Link do Projeto no Figma]([link_para_o_projeto_no_figma](https://www.figma.com/file/tcRY0WlHDz3kGVeydtG6SM/Portfolio?type=design&node-id=0%3A1&mode=design&t=yVOBgCi1K0XMnNHw-1))
+[Link para o design no Figma](https://www.figma.com/file/tcRY0WlHDz3kGVeydtG6SM/Portfolio?type=design&node-id=0%3A1&mode=design&t=yVOBgCi1K0XMnNHw-1)
 
-## Implementação do Site
+## Como Usar
 
-A implementação do site foi realizada utilizando as melhores práticas de desenvolvimento web, garantindo uma experiência responsiva e compatível com diferentes dispositivos e navegadores.
+Para visualizar o portfolio, você pode clonar o repositório para sua máquina local ou acessar o site hospedado.
 
-### Características Principais:
-- Responsividade: O site se adapta perfeitamente a diferentes tamanhos de tela.
-- Interação: Elementos interativos melhoram a experiência do usuário.
-- Acessibilidade: Otimizado para atender necessidade de todos os publicos.
+### Clonando o Repositório
 
-### Preview do Site:
+1. Abra o terminal.
+2. Digite o seguinte comando para clonar o repositório:
 
-[![Preview do Site]([link_para_o_local_do_print_do_site](https://github.com/Ruancard/portfolio/blob/main/site_portfolio.png))]([link_para_o_site_ao_vivo](https://ruancard.github.io/portfolio/))
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
 
-Confira o site ao vivo: [Link do Site]([link_para_o_site_ao_vivo](https://ruancard.github.io/portfolio/))
+3. Acesse a pasta do projeto:
 
-## Código Fonte
+```bash
+cd seu-repositorio
+```
 
-O código fonte deste projeto está disponível no seguinte repositório GitHub:
+4. Abra o arquivo `index.html` em seu navegador para visualizar o portfolio.
 
-[Repositório GitHub]([link_para_o_repositorio_github](https://github.com/Ruancard/portfolio/edit/main)
+### Acessando o Site Hospedado
 
-Sinta-se à vontade para explorar o código, fazer fork ou contribuir com melhorias!
+Você também pode visualizar o portfolio online, acessando:
 
-## Contato
+[Link para o portfolio hospedado](https://ruancard.github.io/portfolio/)
 
-Se você tiver qualquer pergunta sobre o projeto ou estiver interessado em colaborar, não hesite em entrar em contato comigo.
+## Contribuições
 
-**Email:** ruancm47@gmail.com
+Contribuições são sempre bem-vindas! Se você tem alguma sugestão para melhorar este portfolio, por favor, abra uma issue ou envie um pull request.
 
-**LinkedIn:** [seuLinkedIn]([link_para_o_seu_perfil_no_linkedin](https://www.linkedin.com/in/ruancard/))
+## Licença
 
----
-
-Obrigado por visitar meu portfólio. Fique à vontade para explorar outros projetos e conhecer mais sobre meu trabalho e minhas habilidades como desenvolvedor.
-
----
-
-**Nota:** Este arquivo README é apenas um modelo. Certifique-se de personalizá-lo de acordo com as especificações e detalhes do seu projeto.
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
