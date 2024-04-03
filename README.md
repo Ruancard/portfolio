@@ -22,7 +22,7 @@ O design do projeto foi cuidadosamente elaborado no Figma, com atenção aos det
 
 **Design Preview:**
 
-[![Design no Figma]([link_para_o_local_do_print_do_projeto_no_figma](https://github.com/Ruancard/portfolio/blob/main/design_portfolio.png))]([link_para_o_projeto_no_figma](https://www.figma.com/file/tcRY0WlHDz3kGVeydtG6SM/Portfolio?type=design&node-id=0%3A1&mode=design&t=yVOBgCi1K0XMnNHw-1))
+[![Design no Figma]]([link_para_o_projeto_no_figma](https://www.figma.com/file/tcRY0WlHDz3kGVeydtG6SM/Portfolio?type=design&node-id=0%3A1&mode=design&t=yVOBgCi1K0XMnNHw-1))
 
 Para explorar mais sobre o design, visite o projeto no Figma: [Link do Projeto no Figma]([link_para_o_projeto_no_figma](https://www.figma.com/file/tcRY0WlHDz3kGVeydtG6SM/Portfolio?type=design&node-id=0%3A1&mode=design&t=yVOBgCi1K0XMnNHw-1))
 
